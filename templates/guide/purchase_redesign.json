@@ -1,0 +1,11 @@
+{
+	"steps":[
+		{ 					
+        	"element" : ".ui-tabs-anchor:contains(Draft)",
+       		"title": "Redesign",
+        	"content" : "This section allows you to <b>Redesign Order</b>",
+        	"orphan" : true
+    	}
+    	
+            ]
+}

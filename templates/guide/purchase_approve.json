@@ -1,0 +1,11 @@
+{
+	"steps":[
+		{ 					
+        	"element" : ".ui-tabs-anchor:contains(Draft)",
+       		"title": "Approved Order",
+        	"content" : "This section allows you to <b>start process on the order</b>",
+        	"orphan" : true
+    	}
+    	
+            ]
+}

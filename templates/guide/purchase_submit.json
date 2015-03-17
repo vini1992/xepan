@@ -1,0 +1,11 @@
+{
+	"steps":[
+		{ 					
+        	"element" : ".ui-tabs-anchor:contains(Draft)",
+       		"title": "Submit",
+        	"content" : "This section allows you to <b>approve</b> or <b>reject </b>or<b>redesign</b>the order",
+        	"orphan" : true
+    	}
+    	
+            ]
+}

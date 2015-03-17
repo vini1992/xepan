@@ -1,0 +1,50 @@
+{
+	"steps":[
+		{ 					
+        	"element" : "",
+       		"title": "Draft",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true
+    	},
+    	{ 					
+        	"element" : ".atk-button:contains('Add PurchaseOrder Draft')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true
+    	},
+    	{ 					
+        	"element" : ".atk-button:contains('ACL APPLIED')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true
+    	},
+		{ 					
+        	"element" : "th:contains('Submit')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true
+    	},
+    	{ 					
+        	"element" : "th:contains('Purchase Order Item')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true,
+        	"Placement":"top"
+    	},
+		{ 					
+        	"element" : "th:contains('Edit')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true,
+        	"Placement":"bottom"
+    	},
+		{ 					
+        	"element" : "th:contains('Delete')",
+       		"title": "Add New Purchase Order as Draft ",
+        	"content" : "This section allows you to create a <b>Draft</b>",
+        	"orphan" : true,
+        	"Placement":"bottom"
+    	}
+
+    ]
+}

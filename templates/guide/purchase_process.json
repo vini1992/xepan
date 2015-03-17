@@ -1,0 +1,11 @@
+{
+	"steps":[
+		{ 					
+        	"element" : ".ui-tabs-anchor:contains(Draft)",
+       		"title": "Processed Order",
+        	"content" : "This section allows you to <b>mark the process which has been completed</b>",
+        	"orphan" : true
+    	}
+    	
+            ]
+}
