@@ -15,7 +15,7 @@
 	    {
 	        "element" : ".ui-tabs-nav a.ui-tabs-anchor:contains(Basic)",
 	        "title": "Basic Info",
-	        "content" : "This Tab allows you to edit your <b>Department name(Production Phase name)</b>, can provide a <b>phase number</b> and shows an <b>active</b> or <b>passive</b> Phase.<p><div class='panel panel-danger panel-heading text-center'>This <b>Basic Option</b> is only available in user defined Departments (Production Phases)</div></p>",
+	        "content" : "This Tab allows you to edit your <b>Department name(Production Phase name)</b>, can provide a <b>phase number</b> and shows an <b>active</b> or <b>passive</b> Phase.<p><div class='panel panel-info panel-heading text-center'>This <b>Basic Option</b> is only available in user defined Departments (Production Phases)</div></p>",
 	        "placement": "bottom",
 	        "orphan":true
 	    },
