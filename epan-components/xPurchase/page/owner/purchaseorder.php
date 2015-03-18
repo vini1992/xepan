@@ -3,6 +3,8 @@ class page_xPurchase_page_owner_purchaseorder extends page_xPurchase_page_owner_
 	function init(){
 		parent::init();
 
+		$this->add('PageHelp',array('page'=>array('purchase','purchase_approve','purchase_complete','purchase_draft','purchase_process','purchase_redesign','purchase_submit','purchase_reject')));
+
 		$this->app->title=$this->api->current_department['name'] .': Purchase Order';
 		$this->app->layout->template->trySetHTML('page_title','<i class="fa fa-users"></i> Purchase Order Management <small> Manage purchase order </small>');
 
@@ -17,6 +19,6 @@ class page_xPurchase_page_owner_purchaseorder extends page_xPurchase_page_owner_
 		$tabs->addTabURL('xPurchase_page_owner_purchaseorder_approved','Approved');
 		$tabs->addTabURL('xPurchase_page_owner_purchaseorder_processing','Processing');
 		$tabs->addTabURL('xPurchase_page_owner_purchaseorder_completed','Completed');
-		$tabs->addTabURL('xPurchase_page_owner_purchaseorder_rejected','Rejected');
+		$tabs->addTabURL('xPurchase_page_owner_purchaseorder_rejected','Canceled');
 	}
 }
