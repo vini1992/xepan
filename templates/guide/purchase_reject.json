@@ -1,9 +1,9 @@
 {
 	"steps":[
 		{ 					
-        	"element" : ".ui-tabs-anchor:contains(Draft)",
-       		"title": "Rejected Order",
-        	"content" : "This section shows the<b> rejected order</b>",
+        	"element" : "",
+       		"title": "Canceld Order",
+        	"content" : "This section shows the list <b>cancled order</b>",
         	"orphan" : true
     	}
     	

@@ -1,0 +1,17 @@
+{
+	"Steps":[
+		{
+			"element" : "",
+       		"title": "Purchase Order",
+        	"content" : "<div class='alert alert-danger'>This section shows your purchase order</div>",
+        	"orphan" : true
+        },
+        {
+			"element" : ".atk-button:contents('Add Supplier')",
+       		"title": "Purchase Order",
+        	"content" : "<div class='alert alert-danger'>This section shows your purchase order</div>",
+        	"orphan" : true
+        }
+
+	]
+}

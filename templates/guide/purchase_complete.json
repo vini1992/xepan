@@ -1,9 +1,9 @@
 {
 	"steps":[
 		{ 					
-        	"element" : ".ui-tabs-anchor:contains(Draft)",
+        	"element" : "",
        		"title": "Completed Order",
-        	"content" : "This section shows the <b>completed order</b>",
+        	"content" : "This Tab shows the list <b>completed order</b>",
         	"orphan" : true
     	}
     	

@@ -3,55 +3,55 @@
 		{ 					
         	"element" : "",
        		"title": "Purchase Order",
-        	"content" : "This section shows your purchase order",
+        	"content" : "Here you can <b>generate the order</b> for the things which you want to purchase",
         	"orphan" : true
     	},
     	{ 					
         	"element" : "",
        		"title": "Purchase Order",
-        	"content" : "This section allows you to create a <b>Draft</b>,<b>Redesign Order</b>,<b>Submit the Order</b>,<b>Approve the Order</b>,<b>Process the Order</b>,<b>Complete the Order</b>,<b>Reject the Order</b>",
+        	"content" : "<b>Here you can</b><ul><li>Create a Draft</li><li>Redesign Order</li><li>Submit the Draft</li><li>Approve the Order</li><li>Process the Order</li><li>Shows Completed Orders</li><li>Shows Canceled Orders</li></ui>",
         	"orphan" : true
     	},
         {                   
             "element" : ".ui-tabs-anchor:contains(Draft)",
             "title": "Draft",
-            "content" : "This section allows you to create a <b>Draft</b>",
+            "content" : "This Tab provides facility for creating a <b>Draft</b> for purchase order",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Redesign)",
             "title": "Redesign",
-            "content" : "This section allows you to <b>Redesign Order</b>",
+            "content" : "This Tab provides facility for <b>modify the order</b> which is not approved",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Submitted)",
             "title": "Submit",
-            "content" : "This section allows you to <b>approve</b> or <b>cancel </b>or <b>redesign</b>the order",
+            "content" : "In this Tab Order can be <ui><li>Approve</li><li>Cancel</li><li>Redirect to Redesign</li></ui>",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Approved)",
             "title": "Approved Order",
-            "content" : "This section allows you to <b>start process on the order</b>",
+            "content" : "In this Tab process will start on the order by sending the order to <b>the supplier</b>",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Processing)",
             "title": "Processed Order",
-            "content" : "This section allows you to <b>mark the process which has been completed</b>",
+            "content" : "In this Tab we recieve the item and mark as processed if it is complete",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Completed)",
             "title": "Completed Order",
-            "content" : "This section shows the <b>completed order</b>",
+            "content" : "This Tab shows the <b>completed order</b>",
             "orphan" : true
         },
         {                   
             "element" : ".ui-tabs-anchor:contains(Canceled)",
             "title": "Canceled Order",
-            "content" : "This section shows the<b> rejected order</b>",
+            "content" : "This Tab shows the<b> rejected order</b>",
             "orphan" : true
         }
             ]
